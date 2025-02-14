@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- End of Bootstrap Links -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- End of Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>SG E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="main-bg ">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light mx-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./assets/logo.png" class="logo-size img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active fw-bold text-white me-3" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-white me-3" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-white me-3" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-white me-3" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <i class="bi bi-cart3 fw-bold text-white fs-3 d-lg-none d-md-inline-block d-sm-inline-block d-inline-block"></i></li>
+      </ul>
+    </div>
+    <div class="d-flex justify-content-end d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-none" id="cart-icon">
+      <i class="bi bi-cart3 fw-bold text-white fs-3"></i>
+    </div>
+  </div>
+</nav>
+
+    <!-- End of Navbar -->
+
+    <!-- Main Section -->
+    <main id="hero" class="text-white text-center d-grid">
+      <div class="row landing-intro justify-content-center align-items-center mt-auto">
+        <h1>Our Valentines Day Sale is Finally Here!</h1>
+        <p>Get your camera and start capturing moments with just a tick!</p>
+        <p>20% off site wide.</p>
+      </div>
+      <a class="d-inline-block border-0 btn-main mb-auto mx-auto" href="#Product-showcase">SHOP NOW</a>  
+    </main>
+    <!--End of Main Section -->
+
+        <!-- More About Products Section -->
+    <section id="more" class="d-none d-sm-none d-md-block d-lg-block">
+      <h1 class="text-white text-center my-5">New Arrivals</h1>
+    <div id="carouselExampleCaptions" class="carousel slide mx-auto" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/djiflip.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/polaroid.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/ActionCamera.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+
+    <!-- End of More About Products Section -->
+
+    <!-- Products Display Section -->
+          <h1 class="text-white text-center my-5">Featured Products</h1>
+    <section id="products" class="d-flex justify-content-around mb-5">
+    <div class="row">
+      <div class="size-card mx-auto col-lg-4 mb-lg-0 col-md-12 mb-md-3 col-sm-12 mb-sm-5 mb-4">
+        <div class="card p-2">
+          <img src="./assets/sonyZVE10.jpg" class="card-img-top border border-dark border-1 rounded" alt="">
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Sony ZV-E10</h5>
+            <p class="card-text">At its core, the Alpha ZV-E10 features a 24.2-megapixel (approx. effective) APS-C Exmor CMOS sensor and BIONZ X image processing engine to produce high-quality imagery with high-sensitivity, detailed texture depiction and beautiful natural bokeh.</p>
+            <p class="text-decoration-line-through">&#8369;76,000.00</p>
+            <p class="price">&#8369;56,000.00</p>
+          </div>
+            <div id="buttons" class="mx-auto">
+            <a class="d-inline-block border-0 btn-products mb-auto mx-auto" href="#Product-showcase">Buy</a>  
+            <a class="d-inline-block border-0 btn-products mb-auto mx-auto" href="#Product-showcase">Specs</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="size-card mx-auto col-lg-4 mb-lg-0 col-md-12 mb-md-3 col-sm-12 mb-sm-5  mb-4">
+        <div class="card p-2">
+          <img src="./assets/sonyFE100-400mm.jpg" class="card-img-top border border-dark border-1 rounded" alt="">
+          <div class="card-body">
+            <h5 class="card-title  text-center fw-bold">Sony FE 100mm-400mm</h5>
+            <p class="card-text">A 100 mm to 400 mm zoom range is ideal for sports, wildlife and similar subjects, with image quality and AF performance that support professional working needs.</p>
+            <p class="text-decoration-line-through">&#8369;76,000.00</p>
+            <p class="price">&#8369;56,000.00</p>
+          </div>
+            <div id="buttons" class="mx-auto">
+            <a class="d-inline-block border-0 btn-products mb-auto mx-auto" href="#Product-showcase">Buy</a>  
+            <a class="d-inline-block border-0 btn-products mb-auto mx-auto" href="#Product-showcase">Specs</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="size-card mx-auto col-lg-4 mb-lg-0 col-md-12 mb-md-3 col-sm-12 mb-sm-5 mb-4">
+        <div class="card p-2">
+          <img src="./assets/djiAVATA2FMC.jpg" class="card-img-top border border-dark border-1 rounded" alt="">
+          <div class="card-body">
+            <h5 class="card-title  text-center fw-bold">DJI Avata 2 FMC</h5>
+            <p class="card-text">Create breathtaking visuals with the 155° FOV of Avata 2 and its ability to swiftly approach and pull away from subjects. New pilots can quickly master aerobatic shots and capture fast-moving dynamic low-altitude shots that other drones can't.</p>
+            <p class="text-decoration-line-through">&#8369;76,000.00</p>
+            <p class="price">&#8369;56,000.00</p> 
+          </div>
+            <div id="buttons" class="mx-auto">
+            <a class="d-inline-block border-0 btn-products mb-auto mx-auto" href="#Product-showcase">Buy</a>  
+            <a class="d-inline-block border-0 btn-products mb-auto mx-auto" href="#Product-showcase">Specs</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- End of Products Display Section -->
+
+    <!-- Footer Section -->
+      <footer id="footer" class="d-flex justify-content-around bg-light py-3 mt-5">
+      <div class="socials">
+        <h3>FOLLOW US</h3>
+        <a href="https://www.facebook.com/">
+          <img src="./assets/facebook.png"> FACEBOOK
+        </a>
+        <a href="https://www.tiktok.com/en/">
+          <img src="./assets/tiktok.png"> TIKTOK
+        </a>
+        <a href="https://www.youtube.com/?themeRefresh=1">
+          <img src="./assets/youtube.png"> YOUTUBE
+        </a>
+      </div>
+      <div class="vl">
+        
+      </div>
+      <div class="service">
+        <h3>CUSTOMER SERVICE</h3>
+        <a href="#">CONTACT US</a>
+        <a href="#">WARRANTY POLICY</a>
+        <a href="#">TERMS & CONDITIONS</a>
+        <a href="#">DATA PRIVACY</a>
+      </div>
+      <div class="vl">
+        
+      </div>
+      <div class="explore">
+        <h3>EXPLORE</h3>
+        <a href="#">FIND A BRANCH</a>
+        <a href="#">ABOUT</a>
+        <a href="#">FAQ</a>
+        <a href="#">LOYALTY POINTS</a>
+      </div>
+
+    </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

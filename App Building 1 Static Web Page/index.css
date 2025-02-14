@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding 0;
+	box-sizing: border-box;
+}
+
+
+.logo-size {
+	max-height:  100px;
+	max-width: 250px;
+}
+
+.main-text-color{
+	color: #FF7B00;
+}
+
+.nav-link a {
+  color: #FF7B00;
+  text-decoration: none;
+  padding: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link a:hover {
+  color: #ffcc00; /* Change to your desired hover color */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+
+.main-bg {
+	font-family: 'Montserrat', serif;
+	background-image: 
+	linear-gradient(rgba(0,0,0,0.5),
+	rgba(0,0,0,0.5)), url("./assets/background2.jpg");
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#cart-icon {
+  display: flex;
+  align-items: center;
+}
+
+.btn-main {
+	padding: 1rem;
+	color: white;
+	background: #FF7B00;
+	border-radius: 10px;	
+	text-decoration: none;
+	transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-main:hover {
+  background-color: #FFB766;;
+  color: black;
+ }
+
+.btn-products {
+	padding: 0.5rem 2rem;
+	color: white;
+	background: #FF7B00;
+	border-radius: 10px;	
+	text-decoration: none;
+	transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-products:hover {
+	border: 10px solid #FF7B00;
+  color: black;
+  background-color: #FFB766;
+ }
+
+
+#hero {
+  height: 90vh;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+
+#products {
+	width: 100%;
+	max-width: 100%;
+  	padding: 0 15px;
+}
+
+.size-card {
+	max-width:25rem;
+}
+
+/*#more {
+	height: 70vh;
+}*/
+
+#carouselExampleCaptions {
+	max-width: 70vw;
+	padding: 0 15px;
+}
+
+
+#footer a{
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	padding: 0.5rem;
+}
+
+#footer img{
+	max-width: 2rem;
+	max-height: 2rem;
+}
+
+.vl {
+	border: solid 1px black;
+}
